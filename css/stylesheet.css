@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  border-bottom: 20px solid #229976;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 150px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-family:"Bahnschrift";
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #3ae374;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.signup:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 24px 48px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  text-align: center;
+  font-size:;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 184, 148,1.0);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 150px;
+
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right li{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding-top: 10px;
+  display: none;
+  line-height: 10px;
+}
+
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+
+.entry-form {
+  background: #252020;
+  border-radius: 100%;
+  text-align: center;
+  padding: 4em;
+  width: 450px;
+  height: 450px;
+  float: right;
+  border:8px solid #229976;
+  clear:;
+}
+
+.entry-form h2 {
+  color: white;
+  margin: 0 ;
+}
+
+.entry-form .form-control {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+  box-shadow: none;
+  height: 45px;
+  margin: 10px 0;
+}
+
+.entry-form .submit-btn {
+  background: #ffffff;
+  border-radius: 50px;
+  border: 0;
+  color: #252020;
+  width: 50%;
+  height: 50px;
+  margin: 30px auto;
+  margin-bottom: 10px;
+}
+
+.entry-form .submit-btn:hover {
+  background: rgba(0, 184, 148,1.0);
+  color: #ffffff;
+}
+.row{
+  width:100%;
+}
+#about figure {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+section {
+  position: relative;
+  padding: 100px 0;
+}
+#about figure span {
+  float: left;
+  margin-left: -15px;
+  padding: 15px 20px;
+  position: relative;
+  top: 20px;
+}
+
+#about figure span i {
+  background: #29ca8e;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.about-info h2{
+  text-align: center;
+  font-size: 36px
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-family: "Bahnschrift";
+  font-weight: ;
+  font-size: 36px;
+}
+
+.heading h3 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.slider{
+  overflow: hidden;
+  height: 10px;
+}
+
+.slider figure div{
+  width: 20%;
+  float: left;
+  background-color: black ;
+}
+
+.slider figure{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  right: 0;
+  animation: 20s slidy infinite;
+}
+
+@keyframes slidy{
+  0%{
+    right:100%;
+  }
+  25%{
+    right:-100%;
+  }
+  50%{
+    right:100%;
+  }
+  75%{
+    right:-100%;
+  }
+  100%{
+    right:100%;
+  }
+
+}
+.slider-left{
+  overflow: hidden;
+  height: 10px;
+}
+
+.slider-left figure div{
+  width: 20%;
+  float: left;
+  background-color: black ;
+}
+
+.slider-left figure{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  animation: 20s slidyl infinite;
+}
+
+@keyframes slidyl{
+  0%{
+    left:100%;
+  }
+  25%{
+    left:-100%;
+  }
+  50%{
+    left:100%;
+  }
+  75%{
+    left:-100%;
+  }
+  100%{
+    left:100%;
+  }
+
+}
+
+footer img {
+  width: 150px;
+}
+
+footer p {
+  color: white;
+  font-size: 15px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(0, 184, 148,1.0);
+  text-align: center;
+}
