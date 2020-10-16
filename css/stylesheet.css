@@ -160,14 +160,15 @@ header {
   height: 450px;
   float: right;
   border:8px solid #229976;
-  clear:;
 }
 
 .entry-form h2 {
   color: white;
   margin: 0 ;
 }
-
+.entry-form input{
+  color:white;
+}
 .entry-form .form-control {
   background: transparent;
   border: 0;
